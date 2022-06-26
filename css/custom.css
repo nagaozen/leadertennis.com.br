@@ -1,0 +1,75 @@
+.fullscreenSlider > .slider, 
+.fullscreenSlider > .slider > li {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.fullscreenSlider .background {
+	opacity: 0.4;
+}
+
+#logomark {
+	width: 96px;
+	margin: 1em 0;
+}
+
+html.mobile #logomark {
+	width: 64px;
+}
+
+a.whatsapp {
+	display: none;
+}
+
+html.mobile a.whatsapp {
+	display: '';
+}
+
+input[type="date"] {
+	box-sizing: border-box;
+	width: 100%;
+	height: 55px;
+	margin: 5px;
+	padding: 16px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 4px;
+	outline-color: rgb(36, 36, 36);
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	color: rgb(36, 36, 36);
+}
+.slides-form input[type="date"]:focus {
+	border-color: #2196F3;
+	z-index: 10;
+}
+@media (max-width: 768px) {
+	input[type="date"] {
+		display: block;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+div.grecaptcha-badge {display: none !important}
+
+div#training { background-image:url(/assets/img/background/balls-on-court.jpg) }
+html.webp div#training { background-image:url(/assets/img/background/balls-on-court.webp) }
+
+div#kids { background-image:url(/assets/img/background/rolland-garros.jpg) }
+html.webp div#kids { background-image:url(/assets/img/background/rolland-garros.webp) }
+
+div#schedule { background-image:url(/assets/img/background/clay-courts.jpg) }
+html.webp div#schedule { background-image:url(/assets/img/background/clay-courts.webp) }
+
+div#store { background-image:url(/assets/img/background/store.jpg) }
+html.webp div#store { background-image:url(/assets/img/background/store.webp) }
+
+div#blog { background-image:url(/assets/img/background/court-perspective.jpg) }
+html.webp div#blog { background-image:url(/assets/img/background/court-perspective.webp) }
+
+div#aula-experimental { background-image:url(/assets/img/background/agenda.jpg) }
+html.webp div#aula-experimental { background-image:url(/assets/img/background/agenda.webp) }
